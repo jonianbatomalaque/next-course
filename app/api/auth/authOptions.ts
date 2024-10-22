@@ -38,3 +38,5 @@ export const authOptions :NextAuthOptions = {
       strategy:"jwt"
     }
   };
+
+  export default authOptions;
