@@ -32,7 +32,7 @@ export default function RootLayout({
   );
 }
 
-export async function generateMetadate(): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "...",
     description: "...",
